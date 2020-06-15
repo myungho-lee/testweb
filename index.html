@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Create Object from JSON String</h2>
+
+<p id="demo"></p>
+
+<script>
+var fs = require('fs');
+var text = fs.readFileSync("myText.txt", "utf-8");
+document.getElementById("demo").innerHTML = text;
+
+</script>
+
+</body>
+</html>
