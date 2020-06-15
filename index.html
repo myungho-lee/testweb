@@ -7,9 +7,8 @@
 <p id="demo"></p>
 <script>
 var fs = require('fs');
-var text = fs.readFileSync("mytext.txt", "utf-8");
-document.getElementById("demo").innerHTML = text;
+var testText = fs.readFileSync("./mytext.txt", "utf-8");
+document.getElementById("demo").innerHTML = testText;
 <\script>  
-<p>hello</p>
 </body>
 </html>
