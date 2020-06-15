@@ -5,7 +5,11 @@
 <h2>Create Object from JSON String</h2>
 
 <p id="demo"></p>
-
-  <p>hello</p>
+<script>
+var fs = require('fs');
+var text = fs.readFileSync("mytext.txt", "utf-8");
+document.getElementById("demo").innerHTML = text;
+<\script>  
+<p>hello</p>
 </body>
 </html>
